@@ -446,54 +446,7 @@
             </div>
         </section>
 
-        <div class="features">
-            <div class="feature">
-                <h3>🚫 Ad & Tracker Blocking</h3>
-                <p>Blocks ads and trackers using AdGuard, ABPVN, and 1Hosts lists. Auto-updates every hour.</p>
-            </div>
-            <div class="feature">
-                <h3>🌍 ECS – Location Optimization</h3>
-                <p>Sends your network location so CDNs return the closest server for faster page loads.</p>
-            </div>
-            <div class="feature">
-                <h3>🔄 DNS Redirect</h3>
-                <p>Redirect domains to custom CNAME records. Route traffic to a preferred CDN endpoint.</p>
-            </div>
-            <div class="feature">
-                <h3>🛡️ Geo-Bypass</h3>
-                <p>Detects geo-blocked domains and automatically falls back to Mullvad DNS to bypass them.</p>
-            </div>
-            <div class="feature">
-                <h3>⚡ Query Filtering</h3>
-                <p>Drops unnecessary query types (AAAA, PTR, HTTPS) at the edge to reduce upstream load.</p>
-            </div>
-            <div class="feature">
-                <h3>🔐 Private TLD Block</h3>
-                <p>Prevents internal queries like .local, .internal, .test from leaking to the internet.</p>
-            </div>
-        </div>
-
-        <section>
-            <div class="setup-section">
-                <div class="setup-header">💻 Browser Setup</div>
-                <div class="setup-content">
-                    <ul class="setup-list">
-                        <li><span class="step-number">1</span> Go to <strong>Settings</strong> → Privacy & Security</li>
-                        <li><span class="step-number">2</span> Enable <strong>Secure DNS</strong></li>
-                        <li><span class="step-number">3</span> Choose <strong>Custom</strong> and paste the URL:
-                            <div class="url-box" style="margin-top: 12px; margin-left: 32px;">
-                                <div class="url-text" id="endpoint-browser">https://...</div>
-                                <button class="copy-btn" onclick="copyEndpoint(this)" aria-label="Copy"><svg width="18"
-                                        height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <rect x="9" y="9" width="13" height="13" rx="2" />
-                                        <path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1" />
-                                    </svg></button>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+       
 
             <div class="setup-section">
                 <div class="setup-header">🍎 Apple (iOS/macOS)</div>
@@ -507,29 +460,7 @@
                 </div>
             </div>
 
-            <div class="setup-section">
-                <div class="setup-header">📱 Android</div>
-                <div class="setup-content">
-                    <ul class="setup-list">
-                        <li><span class="step-number">1</span> Install <a
-                                href="https://play.google.com/store/apps/details?id=app.intra" target="_blank">Intra</a>
-                            app from Play Store</li>
-                        <li><span class="step-number">2</span> Select <strong>Custom server URL</strong></li>
-                        <li><span class="step-number">3</span> Paste the URL and connect:
-                            <div class="url-box" style="margin-top: 12px; margin-left: 32px;">
-                                <div class="url-text" id="endpoint-android">https://...</div>
-                                <button class="copy-btn" onclick="copyEndpoint(this)" aria-label="Copy"><svg width="18"
-                                        height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <rect x="9" y="9" width="13" height="13" rx="2" />
-                                        <path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1" />
-                                    </svg></button>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+            
 
         <footer>
             Powered by <a href="https://pages.cloudflare.com">Cloudflare Pages</a> • Created by <a
